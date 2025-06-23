@@ -66,11 +66,12 @@ ENV MYSQL_DATABASE="accounts"
 ADD db_backup.sql docker-entrypoint-initdb.d/db_backup.sql
 
 
-📸 Slack Integration
+##📸 Slack Integration
 Slack is integrated to post pipeline status updates to a channel for real-time monitoring.
 
-DEPLOYEMENT::::
-      [docker stack deploy -c docker-compose.yml mystack]
+##DEPLOYEMENT:
+   docker stack deploy -c docker-compose.yml mystack
+
 
 
 
